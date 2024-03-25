@@ -32,37 +32,4 @@ public class StudentController {
         return "Success";
     }
 
-//    @RequestMapping(value = "/best-student-list")
-//    @ResponseBody
-//    public ResponseEntity<List<StudentDTO>> getAll() {
-//        List<StudentDTO> result = studentService.getAllStudent();
-//        return ResponseEntity.ok(result);
-//    }
-
-//    @Autowired
-//    StudentService studentService;
-//
-//    @PostMapping("")
-//    public ResponseEntity<StudentDTO> create(@RequestBody StudentDTO dto) {
-//        StudentDTO result = studentService.create(dto);
-//        return ResponseEntity.ok(result);
-//    }
-
-//    @GetMapping("/{id}")
-//    public ResponseEntity<StudentDTO> getById(@PathVariable String id) {
-//        StudentDTO result = studentService.get(id);
-//        return ResponseEntity.ok(result);
-//    }
-
-//    @PutMapping("/{id}")
-//    public ResponseEntity<String> update(@RequestBody StudentDTO student, @PathVariable("id") String id) {
-//        String result = studentService.updateStudent(student, id);
-//        return ResponseEntity.ok(result);
-//    }
-//
-//    @DeleteMapping("/{id}")
-//    public ResponseEntity<Boolean> delete(@PathVariable("id") String id) {
-//        Boolean result = studentService.delete(id);
-//        return ResponseEntity.ok(result);
-//    }
 }
