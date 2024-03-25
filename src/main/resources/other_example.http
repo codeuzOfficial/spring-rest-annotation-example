@@ -1,0 +1,44 @@
+### Student Create
+POST http://localhost:8080/animal/save
+Content-Type: application/json
+
+{
+  "nickName": "Momiq",
+  "age": 2
+}
+
+### Furnture test 1
+GET http://localhost:8080/furniture/one/12
+
+### Furnture test 2
+GET http://localhost:8080/furniture/search/olma/200
+
+### Furnture test 3.1
+GET http://localhost:8080/furniture/filter/anor
+### Furnture test 3.2
+GET http://localhost:8080/furniture/filter
+
+### Vehicle create
+POST http://localhost:8080/vehicle/create
+Content-Type: application/json
+
+{
+  "id": 1,
+  "model": "BestCar",
+  "year": 1995
+}
+
+### Update vehicle
+PUT http://localhost:8080/vehicle/update/1
+Content-Type: application/json
+
+{
+  "model": "BestCar",
+  "year": 1995
+}
+
+### Flat filter
+GET http://localhost:8080/flat/filter?room=3&floor=1&location=Toshkent
+
+### Flat filter 2
+GET http://localhost:8080/flat/search?title=mazgi
